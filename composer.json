@@ -12,11 +12,11 @@
       "prefer-stable": true,
       "minimum-stability": "stable",
       "require": {
-          "erusev/parsedown": "^1.6",
-          "phpunit/phpunit": "~6.0"
+          "erusev/parsedown": "^1.6"
       },
       "require-dev": {
-          "erusev/parsedown": "^1.6"
+          "erusev/parsedown": "^1.6",
+          "phpunit/phpunit": "^7.1"
       },
       "autoload": {
       "psr-4": {
