@@ -20,8 +20,11 @@
       },
       "autoload": {
       "psr-4": {
-          "Lkeio\\laraparse\\": "src/"
-        }
+          "Lkeio\\Laraparse\\": "src/"
+        },
+      "files": [
+          "src/Laraparse.php"
+        ]
       },
       "autoload-dev": {
       "psr-4": {
