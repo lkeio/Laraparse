@@ -31,7 +31,7 @@
       "extra": {
         "laravel": {
             "providers": [
-                "Lkeio\\laraparse\\LaraparseServiceProvider"
+                "Lkeio\\Laraparse\\LaraparseServiceProvider"
             ],
             "aliases": {
             }
