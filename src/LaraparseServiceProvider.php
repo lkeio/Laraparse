@@ -5,9 +5,6 @@ namespace Lkeio\Laraparse;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
 
-use Laraparse;
-use Parsedown;
-
 class LaraparseServiceProvider extends ServiceProvider
 {
     /**
@@ -27,7 +24,7 @@ class LaraparseServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('Laraparse',function(){
+        $this->app->bind('laraparse',function(){
           return new Laraparse();
         });
     }

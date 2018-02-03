@@ -10,7 +10,7 @@ class Laraparse extends Facade
   protected static function getFacadeAccessor()
   {
 
-      return 'Laraparse';
+      return 'laraparse';
 
   }
 
