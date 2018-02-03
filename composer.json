@@ -13,7 +13,7 @@
       "minimum-stability": "stable",
       "require": {
           "erusev/parsedown": "^1.6",
-          "phpunit/phpunit": "~6.0",
+          "phpunit/phpunit": "~6.0"
       },
       "require-dev": {
           "erusev/parsedown": "^1.6"
