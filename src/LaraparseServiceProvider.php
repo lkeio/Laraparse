@@ -17,20 +17,8 @@ class LaraparseServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-      /**
-      *  $this->compiler()->directive('laraparse', function ($expression) {
-      *  return "<?php echo laraparse($expression); ?>";
-      *});
-      */
     }
 
-    // /**
-    //  * @return BladeCompiler
-    //  */
-    // protected function compiler()
-    // {
-    //     return app('view')->getEngineResolver()->resolve('blade')->getCompiler();
-    // }
 
     /**
      * Register the application services.
@@ -39,8 +27,8 @@ class LaraparseServiceProvider extends ServiceProvider
      */
     public function register()
     {
-          $this->app->singleton('laraparse', function () {
-          return $this->app->make('Laraparse');
+        $this->app->bind('Laraparse',function(){
+          return new Laraparse();
         });
     }
 

@@ -6,7 +6,7 @@
  class Laraparse
  {
 
-   function text($text)
+   public function text($text)
    {
      $Parsedown = new Parsedown();
      return  $Parsedown->text($text);
