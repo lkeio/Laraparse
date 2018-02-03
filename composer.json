@@ -1,0 +1,41 @@
+{
+      "name": "lkeio/laraparse",
+      "description": "Laravel 5.5 package, this package is a wrapper around erusev/parsedown for Laravel",
+      "type": "package",
+      "license": "MIT",
+      "authors": [
+          {
+              "name": "lkeio",
+              "email": "github@lkamal.com"
+          }
+      ],
+      "minimum-stability": "dev",
+      "require": {
+          "erusev/parsedown": "^1.6",
+          "phpunit/phpunit": "^7.1@dev"
+      },
+      "require-dev": {
+          "erusev/parsedown": "^1.6"
+      },
+      "autoload": {
+      "psr-4": {
+          "Lkeio\\laraparse\\": "src/"
+        }
+      },
+      "autoload-dev": {
+      "psr-4": {
+          "Tests\\": "tests/"
+        }
+      },
+      "extra": {
+        "laravel": {
+            "providers": [
+                "Lkeio\\laraparse\\LaraparseServiceProvider"
+            ],
+            "aliases": {
+                "Laraparse": "Lkeio\\laraparse\\LaraparseFacade"
+            }
+        }
+  }
+
+}
