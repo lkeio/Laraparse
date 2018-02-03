@@ -34,7 +34,6 @@
                 "Lkeio\\laraparse\\LaraparseServiceProvider"
             ],
             "aliases": {
-                "Laraparse": "Lkeio\\laraparse\\LaraparseFacade"
             }
         }
   }
