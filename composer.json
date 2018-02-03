@@ -9,7 +9,7 @@
               "email": "github@lkamal.com"
           }
       ],
-      "minimum-stability": "dev",
+      "minimum-stability": "stable",
       "require": {
           "erusev/parsedown": "^1.6",
           "phpunit/phpunit": "^7.1@dev"
