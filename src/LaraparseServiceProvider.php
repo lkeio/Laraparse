@@ -37,7 +37,7 @@ class LaraparseServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app['laraparse'] = $this->app->share(function ($app) {
+          $this->app->singleton('laraparse',function ($app) {
           return new Laraparse;
         });
     }
