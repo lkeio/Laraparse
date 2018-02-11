@@ -2,7 +2,6 @@
 
 namespace Tests;
 
-
 class LaraparseTests extends TestCase
 {
     public function test_if_text_given_is_equals_text_parsed()
@@ -15,13 +14,11 @@ class LaraparseTests extends TestCase
     {
         $bladeCompiler = $this->getCompiler();
 
-        $BladeDirective = '@laraparse("' . $this->textGiven . '")';
+        $BladeDirective = '@laraparse("'.$this->textGiven.'")';
         $compiledBladeDirective = $bladeCompiler->compileString($BladeDirective);
 
-        $compiledExpected = '<?php echo Laraparse::text("' . $this->textGiven . '"); ?>';
+        $compiledExpected = '<?php echo Laraparse::text("'.$this->textGiven.'"); ?>';
 
         $this->assertEquals($compiledBladeDirective, $compiledExpected);
-
-
     }
 }

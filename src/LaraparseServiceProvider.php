@@ -7,18 +7,17 @@ use Illuminate\Support\ServiceProvider;
 
 class LaraparseServiceProvider extends ServiceProvider
 {
-
-  /**
-   * Perform post-registration booting of services.
-   *
-   * @return void
-   */
-  public function boot()
-  {
-      Blade::directive('laraparse', function ($expression) {
+    /**
+     * Perform post-registration booting of services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        Blade::directive('laraparse', function ($expression) {
             return "<?php echo Laraparse::text($expression); ?>";
-      });
-  }
+        });
+    }
 
     /**
      * Register the application services.
@@ -27,9 +26,8 @@ class LaraparseServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('laraparse',function(){
-          return new Laraparse();
+        $this->app->bind('laraparse', function () {
+            return new Laraparse();
         });
     }
-
-  }
+}

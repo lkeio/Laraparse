@@ -1,14 +1,15 @@
 <?php
- namespace Lkeio\Laraparse;
 
- use Parsedown;
+namespace Lkeio\Laraparse;
+
+use Parsedown;
 
  class Laraparse
  {
-   public function text($text)
-   {
-     $Parsedown = new Parsedown();
-     return $Parsedown->text($text);
-   }
+     public function text($text)
+     {
+         $Parsedown = new Parsedown();
 
+         return $Parsedown->text($text);
+     }
  }
