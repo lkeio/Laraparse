@@ -9,7 +9,7 @@ class LaraparseServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any package services.
-     * Bootstrap the Blade directive
+     * Bootstrap the Blade directive.
      *
      * @return void
      */

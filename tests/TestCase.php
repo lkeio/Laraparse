@@ -16,7 +16,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     protected $textExpected = '<h1>test text</h1>';
 
     /**
-     * Get the Instance of the Laraparse Parser class
+     * Get the Instance of the Laraparse Parser class.
      *
      * @return object Laraparse
      */
@@ -30,7 +30,8 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     }
 
     /**
-     * Get the Instance of the BladeCompiler Class
+     * Get the Instance of the BladeCompiler Class.
+     *
      * @return object BladeCompiler
      */
     protected function getCompiler()
@@ -43,9 +44,11 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     }
 
     /**
-     * Loads The packages Service Provider
-     * @param  object $app
-     * @return string    package service provider   
+     * Loads The packages Service Provider.
+     *
+     * @param object $app
+     *
+     * @return string package service provider
      */
     protected function getPackageProviders($app)
     {
