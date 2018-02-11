@@ -1,6 +1,7 @@
 {
       "name": "lkeio/laraparse",
       "description": "Laravel 5.5 package, this package is a wrapper around erusev/parsedown for Laravel",
+      "keywords": ["markdown", "parsedown", "laravel"],
       "type": "package",
       "license": "MIT",
       "authors": [
