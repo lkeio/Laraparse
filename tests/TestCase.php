@@ -15,6 +15,11 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     protected $textGiven = '# test text';
     protected $textExpected = '<h1>test text</h1>';
 
+    /**
+     * Get the Instance of the Laraparse Parser class
+     *
+     * @return object Laraparse
+     */
     protected function getInstance()
     {
         if (!$this->laraparseInstance) {
@@ -24,6 +29,10 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
         return $this->laraparseInstance;
     }
 
+    /**
+     * Get the Instance of the BladeCompiler Class
+     * @return object BladeCompiler
+     */
     protected function getCompiler()
     {
         if (!$this->compilerInstance) {
@@ -33,6 +42,11 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
         return $this->compilerInstance;
     }
 
+    /**
+     * Loads The packages Service Provider
+     * @param  object $app
+     * @return string    package service provider   
+     */
     protected function getPackageProviders($app)
     {
         return ['Lkeio\Laraparse\LaraparseServiceProvider'];

@@ -4,12 +4,14 @@ namespace Tests;
 
 class LaraparseTests extends TestCase
 {
+    /** @test */
     public function test_if_text_given_is_equals_text_parsed()
     {
         $textParsed = $this->getInstance()->text($this->textGiven);
         $this->assertEquals($textParsed, $this->textExpected);
     }
 
+    /** @test */
     public function test_if_blade_directive_is_compiled_correctly()
     {
         $bladeCompiler = $this->getCompiler();

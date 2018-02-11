@@ -8,7 +8,8 @@ use Illuminate\Support\ServiceProvider;
 class LaraparseServiceProvider extends ServiceProvider
 {
     /**
-     * Perform post-registration booting of services.
+     * Bootstrap any package services.
+     * Bootstrap the Blade directive
      *
      * @return void
      */
@@ -20,7 +21,8 @@ class LaraparseServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the application services.
+     * Register the package binding
+     * in the container.
      *
      * @return void
      */
