@@ -1,5 +1,5 @@
 # Laraparse
-
+[![Latest Stable Version](https://poser.pugx.org/lkeio/laraparse/v/stable)](https://packagist.org/packages/lkeio/laraparse)
 [![Build Status](https://travis-ci.org/lkeio/Laraparse.svg?branch=master)](https://travis-ci.org/lkeio/Laraparse)
 [![StyleCI](https://styleci.io/repos/120118206/shield?branch=master)](https://styleci.io/repos/120118206)
 [![License](https://poser.pugx.org/lkeio/laraparse/license)](https://packagist.org/packages/lkeio/laraparse)
