@@ -1,8 +1,6 @@
 # Laraparse
 
-[![Build Status](https://travis-ci.org/lkeio/Laraparse.svg?branch=master)](https://travis-ci.org/lkeio/Laraparse)
-
-[![StyleCI](https://styleci.io/repos/120118206/shield?branch=master)](https://styleci.io/repos/120118206)
+[![Build Status](https://travis-ci.org/lkeio/Laraparse.svg?branch=master)](https://travis-ci.org/lkeio/Laraparse) [![StyleCI](https://styleci.io/repos/120118206/shield?branch=master)](https://styleci.io/repos/120118206)
 
 This package is a wrapper around [erusev/parsedown](https://github.com/erusev/parsedown) for Laravel.
 Parsedown is a Markdown syntax Parser.
