@@ -9,7 +9,7 @@ Parsedown is a Markdown syntax Parser.
 ## Installing
 
 ```
-composer require "lkeio/laraparse:1.*"
+composer require "lkeio/laraparse:1.0.*"
 ```
 
 ## Usage
