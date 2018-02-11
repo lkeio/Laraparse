@@ -3,13 +3,17 @@
 This package is a wrapper around [erusev/parsedown](https://github.com/erusev/parsedown) for Laravel.
 Parsedown is a Markdown syntax Parser.
 
-## Prerequisites
-* Laravael 5.5
+## Version Compatibility
+
+ Laravel  | Laraparse
+:---------|:----------
+ 5.5.x    | 1.1.x
+ 5.6.x    | 1.1.x
 
 ## Installing
 
 ```
-composer require "lkeio/laraparse:1.0.*"
+composer require "lkeio/laraparse:1.1.*"
 ```
 
 ## Usage
@@ -31,6 +35,15 @@ composer require "lkeio/laraparse:1.0.*"
 ```
 
 @laraparse($text)
+
+```
+
+## Tests 
+
+On the root Package directory run :
+
+```
+./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/LaraparseTests
 
 ```
 
