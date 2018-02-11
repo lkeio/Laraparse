@@ -5,11 +5,10 @@
 
  class Laraparse
  {
-
    public function text($text)
    {
      $Parsedown = new Parsedown();
-     return  $Parsedown->text($text);
+     return $Parsedown->text($text);
    }
 
  }

@@ -6,12 +6,8 @@ use Illuminate\Support\Facades\Facade;
 
 class Laraparse extends Facade
 {
-
   protected static function getFacadeAccessor()
   {
-
       return 'laraparse';
-
   }
-
 }

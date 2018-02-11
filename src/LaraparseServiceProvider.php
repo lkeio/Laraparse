@@ -2,20 +2,23 @@
 
 namespace Lkeio\Laraparse;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\View\Compilers\BladeCompiler;
 
 class LaraparseServiceProvider extends ServiceProvider
 {
+
     /**
-     * Bootstrap the application services.
+     * Perform post-registration booting of services.
      *
      * @return void
      */
     public function boot()
     {
+        Blade::directive('laraparse', function ($expression) {
+              return "<?php echo (New Laraparse)->text($expression); ?>";
+        });
     }
-
 
     /**
      * Register the application services.
