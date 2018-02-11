@@ -12,13 +12,13 @@ Parsedown is a Markdown syntax Parser.
 
  Laravel  | Laraparse
 :---------|:----------
- 5.5.x    | 1.1.x
- 5.6.x    | 1.1.x
+ 5.5.x    | 1.2.x
+ 5.6.x    | 1.2.x
 
 ## Installing
 
 ```
-composer require "lkeio/laraparse:1.1.*"
+composer require "lkeio/laraparse:1.2.*"
 ```
 
 ## Usage
