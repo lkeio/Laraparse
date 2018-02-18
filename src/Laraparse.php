@@ -9,9 +9,9 @@ class Laraparse
     /**
      * Parses The text.
      *
-     * @param  string $text Markdown text syntax
+     * @param string $text Markdown text syntax
      *
-     * @return html         Parsed text to Html
+     * @return html Parsed text to Html
      */
     public function text($text)
     {
